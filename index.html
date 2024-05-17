@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portifolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50e61dccb3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>   
+    <div class="header">
+       <div class="container">
+        <style>
+            nav {
+              display: flex;
+              align-items: flex-start; /* Align items to the top */
+              justify-content: space-between; /* Spread items horizontally */
+              padding: 0;
+              margin: 0;
+            }
+          
+            nav ul {
+              list-style: none;
+              display: flex;
+              margin: 0;
+              padding: 0;
+            }
+          
+            nav ul li {
+              margin-right: 25px;
+            }
+          
+            nav ul li:last-child {
+              margin-right: 0; /* Remove margin for the last item */
+            }
+          
+            nav ul li a {
+              text-decoration: none;
+              color: #f1ecec;
+              font-weight: bold;
+            }
+          </style>
+        
+        <nav>
+            <img src="image/log.jpeg">
+            <ul>
+        <li> <a href="#header">Home</a></li>
+        <li> <a href="#about">About </a></li>
+        <li> <a href="#service">Service</a></li>
+        <li> <a href="#portifolio">portifolio</a></li>
+        <li> <a href="#Contact">Contact </a></li>
+        <i class="fa-solid fa-xmark"></i> 
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            </nav>
+            
+       </div>
+
+            <div class="header-text">
+                <p>
+                    UI & UX Designer
+                </p>
+                <h1>Hello! I'm <span>Norbert</span> <br>from the Empire of<br> design Dedicated <br>to Designing!</h1>
+            </div>
+       
+    </div>
+    <!---------------------------------about--------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1"> 
+                    <img src="image/NORBERT.PNG" >
+                </div>
+                    <div class="about-col2"> 
+                        <h1 class="subtitle">About me! </h1>
+                        <p> A UI/UX designer focuses on crafting the user experience (UX) <br>and user interface (UI) of software or digital products.<br>a software developer writes code and builds <br>the functional  aspects of software,implementing the <br>designs created by UI/UX designers. Both roles collaborate  closely <br> to marry design aesthetics with functional programming, aiming to<br>create products that are both visually engaging and operationally efficient.</p>
+                   <div class=" tab-titles">
+                    <p class="tab-links active-link" onclick=" opentab ('SKILLS')">SKILLS</p>
+                    <p class="tab-links" onclick=" opentab ('EXPERIENCE')">EXPERIENCE</p>
+                    <p class="tab-links" onclick=" opentab ('EDUCATION')">EDUCATION</p>
+                   </div>
+                   <div class="tab-contants active-tab" id="SKILLS">
+                    <ul>
+                        <li> <span>UI & UX</span> <br> Designing Websites& App interfaces<br>and Software Development</li>
+                        <li> <span>Web Development</span> <br> Web app Development</li>
+                        <li> <span>APP Development</span> <br> Androidand Ios Apps</li>
+                        <li> <span>Software Development</span> <br> System Development</li>
+                        </ul>
+                   </div>
+                   <div class="tab-contants" id="EXPERIENCE">
+                    <ul>
+                        <li> <span>2021-current </span> <br>UI&UX Designing Training at <br>Crimson institute </li>
+                        <li> <span>20219-2021</span> <br> Web Development at M7N ltd</li>
+                        <li> <span>2019-2020</span> <br> UI AND UX at ART7 design </li>
+                        <li> <span>2018-2019</span> <br>Internship </li>
+                        </ul>
+                   </div>
+                    
+                   <div class="tab-contants" id="EDUCATION">
+                    <ul>
+                        <li> <span>2018</span> <br>UI&UX Designing Training at Crimson institute </li>
+                        <li> <span>2021</span> <br> Web Development at M7N ltd</li>
+                        <li> <span>2022</span> <br> Software development</li>
+                        <li> <span>2023</span> <br>Computer Sceince</li>
+                        </ul>
+                   </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------Services---------------------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Servises</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design & Web development</h2>
+                    
+                    <p>software developer writes code and builds <br>the functional  aspects of software.</p>
+                <a href="#">Explore More</a>
+                </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2> UI & UX Design|| IT services</h2>
+                
+                <p>software developer writes code and builds <br>the functional  aspects of software.</p>
+            <a href="#">Explore More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> APP Development </h2>
+                
+                <p>software developer writes code and builds <br>the functional  aspects of software.</p>
+            <a href="#">Explore More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----------------------------------my portifolio---------------------->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            
+                <div class="work">
+                    <img src="image/design1.avif" >
+                    <div class="layer">
+                        <he>Social media design App</he>
+                        <p>The ap connect you to the talented<br> peaple around the world.<br> Download them from Play Store! </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/design2.jpeg" >
+                    <div class="layer">
+                        <he>The work place</he>
+                        <p>Come and meet with talented peaple<br>around the world, we share Ideas.<br> and we Train you and become an expert </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/desin.webp"  >
+                    <div class="layer">
+                        <he>Online shopping App</he>
+                        <p>The app connect you to the talented<br> peaple around the world.<br> Download them from Play Store! </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>  
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------------------------------my contacts------------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Nobert11@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>+2509987879</p>
+                    <div class="social-icone">
+                        <a href="https:/facebook.com/"> <i class="fa-brands fa-facebook"> </i> </a>
+                        <a href=""> <i class="fa-brands fa-twitter"> </i> </a>
+                        <a href=""> <i class="fa-brands fa-instagram"> </i> </a>
+                        <a href=""> <i class="fa-brands fa-linkedin"> </i> </a>
+
+                    </div>
+                    <a href="image/My CV.pdf " download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                          <input  class="name"  type="text" name="Name" placeholder="YourName" >
+                        <input class="email" type="email" name="email" placeholder="YourEmail" >
+                        <textarea name="Message"  rows="6" placeholder="YourMessage" class="massage" ></textarea>
+                        <button type="submit" class="btn btn2  "> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright 2023 <span>Norbert</span> </p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName('tab-links');
+        var tabcontants= document.getElementsByClassName('tab-contants');
+        function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontant of tabcontants){
+            tabcontant.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+        }
+    </script>
+</body>
+</html> 
